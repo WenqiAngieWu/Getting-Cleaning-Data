@@ -1,3 +1,7 @@
+if(!file.exists("week1")){
+  dir.create("week1")
+}
+
 # 1
 url1 <- "https://d396qusza40orc.cloudfront.net/getdata%2Fdata%2Fss06hid.csv"
 download.file(url1, destfile = ".\\week1\\data1.csv")
